@@ -104,14 +104,14 @@ header li{
     }
 
 #about-img1{
-    background: url(./Resources/pexels-oleg-magni-1005644.jpg);
+    background: url(./Resources/pexels-andreas-5312470.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #about-img2{
-    background: url(./Resources/pexels-juv-2106452.jpg);
+    background: url(./Resources/pexels-dimitry-anikin-9864148.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +123,7 @@ header li{
     clear: both;
     font-size: 16px;
     text-align: center;
-    background: url(./Resources/pexels-iahava-erico-7514645.jpg)
+    background: url(./Resources/pexels-sascha-hormel-970763.jpg)
 }
 
 .menu-inner{
