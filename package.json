@@ -1,0 +1,28 @@
+{
+  "name": "exercise-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web-ifc": "^0.0.25"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rollup": "^2.58.0"
+  },
+  "description": "ifc_try",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliakind/ifc_try.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nataliakind/ifc_try/issues"
+  },
+  "homepage": "https://github.com/nataliakind/ifc_try#readme"
+}

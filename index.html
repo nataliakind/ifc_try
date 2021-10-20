@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./Resources/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+
+    <title>IFC.js</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            
+            <h1><a href="index.html">Mein IFC Viewer</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#presentation">Startseite</a></li>
+                    <li><a href="#about">Was ist IFC?</a></li>
+                    <li><a href="#menu">Formate</a></li>
+                    <li><a href="#container">IFC hochladen</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section class= "presentation" id="presentation">
+        <div class="presentation-video">
+            <video src="./Resources/Pexels Videos 2818522.mp4" autoplay muted loop></video>
+        </div>
+        <div class="dark-overlay">
+            <div class="presentation-content">
+                <h2>BIM wirklich Open</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore facilis quisquam hic ducimus recusandae soluta praesentium fugiat ea, nostrum vitae, aliquam iusto voluptas! Possimus corrupti quia dolores est voluptatum!
+                </p>
+            </div>
+        </div>
+    </section>
+   
+
+    <section class= "about" id="about">
+        <div class= "about-container left" id="about-img1">
+        </div>
+        <div class= "about-container right about-content">
+            <h2 class= "about-title">Was ist IFC?</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptatem accusamus repellendus molestiae, recusandae accusantium architecto voluptate, et perspiciatis exercitationem similique voluptates fugiat neque laboriosam officia praesentium, illo quisquam deserunt corporis omnis quae. Eligendi nesciunt sequi neque alias esse ipsam provident aliquam dignissimos odio in quod, blanditiis adipisci, fuga facere?
+            </p>
+        </div>
+        
+        <div  class= "about-container right" id="about-img2">
+        </div>
+        
+        <div  class= "about-container left about-content">
+            <h2 class= "about-title">Warum Open BIM?</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias itaque, sequi ipsa ut impedit libero velit earum nemo dicta? Commodi expedita doloribus vero quas autem.
+            </p>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class= "dark-overlay">
+            <div class= "menu-inner">
+                <h2 class= "menu-title">Formate</h2>
+                    <ul>
+                        <li>
+                            <div>Revit</div>
+                            <div>.RVT</div>
+
+                        </li>            
+                        <li>
+                            <div>AutoCAD</div>
+                            <div>.DWG</div>
+
+                        </li>
+                        <li>
+                            <div>Navisworks</div>
+                            <div>.NWD</div>
+
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    
+        <div class="file-opener">
+            <a class="invisible" id="save-button">Save JSON</a>
+            <button class="basic-button" id="file-opener-button">Open IFC</button>
+        </div>
+        
+        <input class="invisible" id="file-input" type="file">
+        
+        <div class="general-container">
+            <div class="container" id="left-container"></div>
+            <div class="separator"></div>
+            <div class="container" id="right-container"><pre id="json"></pre></div>
+        </div>
+    
+
+    <footer>
+        <p>
+            Mein IFC Viewer &copy; BIM wirklich Open
+        </p>
+    </footer>
+    
+    
+    <script src="bundle.js"></script>
+
+</body>
+</html>
