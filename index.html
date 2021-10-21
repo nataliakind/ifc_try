@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <link rel="icon" href="./Resources/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-
 
     <title>IFC.js</title>
 </head>
@@ -18,13 +17,14 @@
     <header>
         <div class="header-container">
             
-            <h1><a href="index.html">Mein IFC Viewer</a></h1>
+            <h1><a href="index.html">Der free IFC Viewer</a></h1>
             <nav>
                 <ul>
                     <li><a href="#presentation">Startseite</a></li>
-                    <li><a href="#about">Was ist IFC?</a></li>
-                    <li><a href="#menu">Formate</a></li>
-                    <li><a href="#container">IFC hochladen</a></li>
+                    <li><a href="#about">Warum IFC?</a></li>
+                    <li><a href="#menu">Software</a></li>
+                    <li><a href="#container">IFC Verwalten</a></li>
+                    <li><a href="#impresum">Impresum</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,8 +37,8 @@
         </div>
         <div class="dark-overlay">
             <div class="presentation-content">
-                <h2>BIM wirklich Open</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore facilis quisquam hic ducimus recusandae soluta praesentium fugiat ea, nostrum vitae, aliquam iusto voluptas! Possimus corrupti quia dolores est voluptatum!
+                <h2>Der free IFC Viewer &copy </h2>
+                <p>BIM wirklich Open
                 </p>
             </div>
         </div>
@@ -51,7 +51,7 @@
         <div class= "about-container right about-content">
             <h2 class= "about-title">Was ist IFC?</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptatem accusamus repellendus molestiae, recusandae accusantium architecto voluptate, et perspiciatis exercitationem similique voluptates fugiat neque laboriosam officia praesentium, illo quisquam deserunt corporis omnis quae. Eligendi nesciunt sequi neque alias esse ipsam provident aliquam dignissimos odio in quod, blanditiis adipisci, fuga facere?
+            Das IFC Format ist der Standarisierte Format der Building Smart International für Building Information Modeling.
             </p>
         </div>
         
@@ -59,17 +59,23 @@
         </div>
         
         <div  class= "about-container left about-content">
-            <h2 class= "about-title">Warum Open BIM?</h2>
+            <h2 class= "about-title">Was kann der free IFC Viewer?</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias itaque, sequi ipsa ut impedit libero velit earum nemo dicta? Commodi expedita doloribus vero quas autem.
-            </p>
+                Der free IFC Viewer &copy; erlaubt das Öffnen, Anzeigen und Bearbeiten von IFC-Dateien aus BIM Projekte. 
+                <br> Testen Sie jetzt wie das IFC als Open Format bequem vewaltet werden kann.
+                </p>
         </div>
     </section>
 
     <section class="menu" id="menu">
         <div class= "dark-overlay">
             <div class= "menu-inner">
-                <h2 class= "menu-title">Formate</h2>
+                <h2 class= "menu-title">Software</h2>
+                    <p>
+                    In der Infrastrukturplanung werden zahlreiche Softwarelösungen angeboten. 
+                    <br>Im Züge der BIM-Umsetzung werden mehr Softwareprodukte auch offene Dateiformate, wie zum Beispiel das IFC-Format, unterstütz. 
+                    </p>
+
                     <ul>
                         <li>
                             <div>Revit</div>
@@ -96,24 +102,10 @@
         </div>
     </section>
 
-    <section class="container" id="container">
-        <div class="file-opener">
-            <a class="invisible" id="save-button">Save JSON</a>
-            <button class="basic-button" id="file-opener-button">Open IFC</button>
-        </div>
-        
-        <input class="invisible" id="file-input" type="file">
-        
-        <div class="general-container">
-            <div class="container" id="left-container"></div>
-            <div class="separator"></div>
-            <div class="container" id="right-container"><pre id="json"></pre></div>
-        </div>
-    </section>
-
     <footer>
         <p>
-            Mein IFC Viewer &copy; BIM wirklich Open
+            Der free IFC Viewer &copy; 
+            <br>BIM wirklich Open - basiert auf Three.js und IFC.js
         </p>
     </footer>
     
